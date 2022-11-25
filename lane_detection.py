@@ -63,7 +63,7 @@ def region_of_interest(image):
 
 
 
-cap = cv2.VideoCapture('C:\\Users\\Aditya\\OneDrive\\Desktop\\Data Science\\Capstone Project\\test_video.mp4')
+cap = cv2.VideoCapture('\\video-path')
 while(cap.isOpened()):
   _,frame = cap.read()
   canny_image = canny(frame)
